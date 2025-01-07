@@ -26,7 +26,7 @@ for(char c : input.toCharArray()) //input을 문자 배열로 변환한 후 char
     list.add(String.valueOf(c)); //list는 String배열임. c를 String으로 변환하여 list에 add
 나머지 코드는 동일!
 */
-public class RecursionPerm {
+public class recursionPerm {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());

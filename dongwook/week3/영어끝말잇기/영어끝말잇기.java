@@ -1,10 +1,8 @@
-package Study_codingtest.dongwook.week2;
-
 import java.util.*;
 
 class 영어끝말잇기 {
     public int[] solution(int n, String[] words) {
-        int[] answer = {0, 0};
+        int[] answer = {0, 0}; // 실패한 사람 번호와 차례 담을 배열을 초기화하는 과정
 
         //단어 중복 체크를 위한 맵
         Map<String, Integer> map = new HashMap<>();
@@ -21,7 +19,7 @@ class 영어끝말잇기 {
                     answer[0] = (i % n) + 1; // 번호
                     answer[1] = (i / n) + 1; // 차례
 
-                    return answer;
+                    return answer; // 실패한 사람과 차례를 반환하는 과정
                 }
             }
 

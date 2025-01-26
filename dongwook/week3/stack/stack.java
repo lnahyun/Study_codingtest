@@ -1,5 +1,3 @@
-package Study_codingtest.dongwook.week2;
-
 public class stack {
     private static final int MAX_STACK_SIZE = 10;
     private int top = -1;
@@ -21,24 +19,5 @@ public class stack {
             return -1; // 스택이 비어있으면 -1 반환
         }
         return stack[top--];
-    }
-
-    // 스택의 최상위 항목을 반환하는 함수
-    public int peek() {
-        if (top == -1) {
-            System.out.println("스택이 비어있습니다.");
-            return -1;
-        }
-        return stack[top];
-    }
-
-    // 스택이 비어있는지 확인하는 함수
-    public boolean isEmpty() {
-        return top == -1;
-    }
-
-    // 스택이 꽉 찼는지 확인하는 함수
-    public boolean isFull() {
-        return top == MAX_STACK_SIZE - 1;
     }
 }

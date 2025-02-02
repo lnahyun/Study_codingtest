@@ -17,7 +17,6 @@ class LinkedList {
         this.first = null;
     }
 
-    // insert 메서드를 LinkedList 클래스의 멤버 메서드로 이동
     public void insert(Node x) {
         Node temp = new Node(50);
 

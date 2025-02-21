@@ -1,7 +1,7 @@
 # Study_codingtest
 
 ## 진행
-- 스터디원 : 5명
+- 스터디원 : 8명
 - 언어 : 자유
 - **공통 2문제** 및 **개인 2문제** 풀기 (총 4문제)
   - 본인의 아이디어를 포함한 풀이과정과 코드 깃허브에 업로드
@@ -42,4 +42,10 @@
   - [GitHub] (https://github.com/Seongmin1223)
 - 김동욱
   - [GitHub] (https://github.com/dw426)
+- 김도림
+  - [GitHub] (https://github.com/gjyfdsdjj)
+- 최진제
+  - [GitHub] (https://github.com/jinvelope)
+- 박진우
+  - [GitHub] (https://github.com/jinupark0708)
 
